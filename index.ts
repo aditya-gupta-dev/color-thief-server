@@ -1,3 +1,3 @@
-import { getPalette } from "./server";
+import { getPalette } from "./colorthief";
 
-console.log(await getPalette("<image-source>.jpg", undefined));
+console.log(await getPalette("three.jpg"));
